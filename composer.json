@@ -1,0 +1,10 @@
+{
+    "name": "sumkabum/magento2mail",
+    "description": "Simple implementation of magento mail transportBuilder",
+    "autoload": {
+        "psr-4": {
+            "Sumkabum\\Magento2mail\\": ""
+        }
+    },
+    "require": {}
+}
