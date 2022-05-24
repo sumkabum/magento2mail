@@ -26,7 +26,8 @@ class Mail
             ->setFrom($from)
             ->addTo($to)
             ->setSubject($subject)
-            ->setBody($body);
+            ->setBodyHtml($body)
+        ;
 
         /** @var TransportInterfaceFactory $transportFactory */
         $transportFactory = ObjectManager::getInstance()->get(TransportInterfaceFactory::class);
