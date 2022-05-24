@@ -6,5 +6,7 @@
             "Sumkabum\\Magento2mail\\": ""
         }
     },
-    "require": {}
+    "require": {
+        "magento/product-community-edition": "<=2.3.2"
+    }
 }
